@@ -17,7 +17,7 @@ class StudentService
         return $student;
     }
 
-    public function delete(Student $student): bool
+    public function delete(Student $student)
     {
         return $student->delete();
     }
